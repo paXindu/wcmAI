@@ -3,7 +3,7 @@ import numpy as np
 import pickle
 
 
-model = pickle.load(open('model.pkl', 'rb'))
+model = pickle.load(open('v2.pkl', 'rb'))
 
 def run_program(userin, num_iterations):
     
